@@ -4,7 +4,6 @@ import time
 a = 0
 WEBHOOK_URL = input('enter a valid webhook: ')
 MESSAGE_CONTENT = input('Message Content: ')
-COOLDOWN_SECONDS = 0.7
 
 while True:
     response = requests.post(WEBHOOK_URL, json={'content': MESSAGE_CONTENT})
@@ -17,4 +16,4 @@ while True:
         message2 = "failed on send the {} message we retry soon".format(a)
         print(message2)
         a -= 1
-    time.sleep(COOLDOWN_SECONDS)
+    time.sleep(0.7)
