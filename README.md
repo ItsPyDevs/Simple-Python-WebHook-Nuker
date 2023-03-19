@@ -1,7 +1,7 @@
 # Simple-Python-WebHook-Nuker
 Send Discord Message With WebHook !
-> Launch 
-> 
+#> Launch 
+ 
 first you need to install pkg in your pc:
 
 run this cmd: 
