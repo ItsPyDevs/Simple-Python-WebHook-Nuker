@@ -1,13 +1,13 @@
 # Simple-Python-WebHook-Nuker
 Send Discord Message With WebHook !
 
-> Launch 
- 
+> Install
+
 first thing you need to do is to install pkg in your pc with these cmd:
 
 *pip install time discord*
 
-And Lunch the Nuker:
+> Lunch
 
 *py nuke.py*
 
